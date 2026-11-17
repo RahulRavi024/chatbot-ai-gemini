@@ -1,0 +1,20 @@
+[project]
+name = "llm-learning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "rahulravi-dev", email = "rahulravi02401@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=3.53.0",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+llm-learning = "llm_learning:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
